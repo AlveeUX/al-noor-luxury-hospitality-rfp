@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| Prepared by | BA (Alvee), practice case study |
+| Prepared by | BA (Absar Alvee), practice case study |
 | Based on | Discovery Meetings 2–5 ([`interview-notes.md`](../01-discovery/interview-notes.md)), original brief ([`client-brief-v0.1.md`](../01-discovery/client-brief-v0.1.md)), regulatory research ([`regulatory-considerations.md`](../02-research/regulatory-considerations.md)) |
 | Status | Draft — pending stakeholder validation |
 | Version | 0.1 |

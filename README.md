@@ -46,7 +46,7 @@ CHANGELOG.md             What changed, when, and why
 | 01 — Discovery | **Complete** — joint session, dedicated Finance and IT sessions, follow-up on open items. 2 dependencies tracked forward (see below), not blockers. |
 | 02 — Research | Substantial — UAE market data, PMS vendor landscape, UAE/GCC regulatory considerations, all sourced |
 | 03 — Requirements | **Draft** — BRD, 10 user stories, 12 functional + 9 non-functional requirements, and a traceability matrix drafted from discovery evidence. Pending stakeholder validation (not yet reviewed with Khalid, Nadia, or Omar) and 2 open governance approvals — see [`03-requirements/traceability-matrix.md`](03-requirements/traceability-matrix.md). |
-| 04 — UX & Product | Not started |
+| 04 — UX & Product | **Draft** — personas, user journeys/workflows, information architecture, and screen flows scoped around one illustrative candidate capability. Explicitly not a committed design — pending the technology decision in `05-technology/` and stakeholder validation. |
 | 05 — Technology | Not started |
 | 06 — RFP & Commercial | Not started |
 | 07 — Estimation & Delivery | Not started |

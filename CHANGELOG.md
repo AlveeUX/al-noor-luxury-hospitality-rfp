@@ -2,6 +2,14 @@
 
 All notable changes to this case study are recorded here, newest first.
 
+## 2026-10-05 (2)
+
+- Drafted `04-ux-and-product/` in full: `personas.md` (4 personas, each traced to a confirmed discovery stakeholder), `user-journeys-and-workflows.md` (2 confirmed process maps + 3 candidate workflows), `information-architecture.md`, `screen-flows.md` (4 flows, wireframe-level detail)
+- Entire phase explicitly scoped as illustrative/candidate — built around one possible supporting capability, not a committed design, since `05-technology/` has not yet decided whether a new tool, reconfigured existing tools, or process change alone delivers the `03-requirements/` functional requirements
+- Property GM persona explicitly flagged as evidenced by only 2 of 5 properties, not all five
+- Removed `04-ux-and-product/STATUS.md` placeholder, superseded by the real content
+- `DECISIONS.md`: 2 new entries; `README.md`: project status table updated
+
 ## 2026-10-05
 
 - Drafted `03-requirements/` in full: `business-requirements-document.md`, `user-stories.md` (10 stories across 5 epics), `functional-requirements.md` (12 requirements), `non-functional-requirements.md` (9 requirements), `traceability-matrix.md`

@@ -14,7 +14,7 @@ The exercise deliberately starts from an **incomplete client brief** (a one-para
 
 ## What this demonstrates
 
-| Skill area (from the JD) | Where it's evidenced |
+| Skill area | Where it's evidenced |
 |---|---|
 | Research & business analysis | [`02-research/`](02-research/) — market research, competitor/vendor landscape, source register |
 | Client discovery & requirement validation | [`01-discovery/`](01-discovery/) — questionnaire, interview notes, decision log |

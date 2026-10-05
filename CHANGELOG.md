@@ -2,6 +2,17 @@
 
 All notable changes to this case study are recorded here, newest first.
 
+## 2026-10-05 (3)
+
+- Drafted `05-technology/`: `system-context-and-options.md` (current-state architecture + 3 solution options with a draft recommendation), `integrations-and-data-considerations.md`, `risks-and-dependencies.md`
+- **Recommendation: sequence governance before tooling, and do not pursue a full five-property PMS replacement** — grounded directly in Meeting 4's finding that the Excel consolidation layer sits outside the PMS entirely. Not yet validated with Omar or Executive Management.
+- Drafted `06-rfp-and-commercial/`: `rfp-document.md` (scoped to the confirmed problem, explicitly not the original "Hotel Management System" brief, with an open build-vs-buy decision flagged up front), `vendor-response-template.md` (compliance matrix against every FR/NFR ID), `evaluation-matrix.md`, `sow-outline.md`
+- Drafted `07-estimation-and-delivery/`: `work-breakdown-structure.md`, `estimation-model.md` (person-week ranges only, no currency figures — budget was never disclosed), `delivery-phases.md` (7 gated phases), `assumptions-and-change-log.md` (change-control mechanism, starts empty)
+- Pushed `08-ai-workflow/` (`ai-practice-method.md`, `role-requirements-reference.md`) to GitHub for the first time — content was already accurate for phases 05–07 and needed no changes
+- Removed `STATUS.md` placeholders from `05-technology/`, `06-rfp-and-commercial/`, `07-estimation-and-delivery/`
+- `DECISIONS.md`: 6 new entries; `README.md`: project status table updated — all 8 stages now have content
+- **All of 05/06/07 remain explicitly draft** — no technology, procurement, or estimation workshop has been held with Khalid, Nadia, or Omar. The repository's full structure is now populated end-to-end, with every open approval and tracked dependency still visible rather than quietly resolved
+
 ## 2026-10-05 (2)
 
 - Drafted `04-ux-and-product/` in full: `personas.md` (4 personas, each traced to a confirmed discovery stakeholder), `user-journeys-and-workflows.md` (2 confirmed process maps + 3 candidate workflows), `information-architecture.md`, `screen-flows.md` (4 flows, wireframe-level detail)

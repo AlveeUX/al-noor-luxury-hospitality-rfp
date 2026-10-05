@@ -47,14 +47,18 @@ CHANGELOG.md             What changed, when, and why
 | 02 — Research | Substantial — UAE market data, PMS vendor landscape, UAE/GCC regulatory considerations, all sourced |
 | 03 — Requirements | **Draft** — BRD, 10 user stories, 12 functional + 9 non-functional requirements, and a traceability matrix drafted from discovery evidence. Pending stakeholder validation (not yet reviewed with Khalid, Nadia, or Omar) and 2 open governance approvals — see [`03-requirements/traceability-matrix.md`](03-requirements/traceability-matrix.md). |
 | 04 — UX & Product | **Draft** — personas, user journeys/workflows, information architecture, and screen flows scoped around one illustrative candidate capability. Explicitly not a committed design — pending the technology decision in `05-technology/` and stakeholder validation. |
-| 05 — Technology | Not started |
-| 06 — RFP & Commercial | Not started |
-| 07 — Estimation & Delivery | Not started |
-| 08 — AI Workflow | Substantial |
+| 05 — Technology | **Draft** — current-state system context, 3 solution options evaluated (process-only / lightweight tooling / full PMS replacement), with a draft recommendation **against** replacing any property's PMS. Not yet validated with IT or Executive Management. |
+| 06 — RFP & Commercial | **Draft** — RFP scoped to the confirmed governance/consolidation problem (not the original "Hotel Management System" brief), vendor response template with a full requirements compliance matrix, evaluation matrix, SOW outline. Build-vs-buy left as an open decision. |
+| 07 — Estimation & Delivery | **Draft** — WBS, estimation model (person-week ranges only, no currency — budget was never disclosed), 7 gated delivery phases, assumptions and change-control log. |
+| 08 — AI Workflow | **Complete** — method and role-mapping documented from the start of the project. |
 
 **Key discovery finding:** the client's starting request ("Hotel Management System") does not match the confirmed problem. Two independent stakeholders — Finance (process) and IT (technical) — converged on the same root cause from different angles: an ungoverned KPI-definition layer and a manual Excel consolidation process sitting outside the PMS, not a PMS data-availability problem. Full evidence trail in [`01-discovery/interview-notes.md`](01-discovery/interview-notes.md).
 
-**Open dependencies carried into requirements** (not blockers, tracked with an owner): Property D's exact PMS/reporting flow, and a property-by-property inventory of government/tourism-authority reporting obligations — both owned by IT, pending direct property-team confirmation. Both are now also tracked as explicit "Pending" user stories (US-09, US-10) in [`03-requirements/`](03-requirements/), not just discovery notes.
+**Open dependencies carried into requirements** (not blockers, tracked with an owner): Property D's exact PMS/reporting flow, and a property-by-property inventory of government/tourism-authority reporting obligations — both owned by IT, pending direct property-team confirmation. Both are now also tracked as explicit "Pending" user stories (US-09, US-10) in [`03-requirements/`](03-requirements/), gating Phases 4 and 5 of [`07-estimation-and-delivery/delivery-phases.md`](07-estimation-and-delivery/delivery-phases.md).
+
+**Technology recommendation:** [`05-technology/system-context-and-options.md`](05-technology/system-context-and-options.md) recommends governance before tooling, and explicitly recommends against replacing any property's PMS — the confirmed problem sits in business logic and a manual Excel consolidation layer, not PMS data availability. This recommendation is draft, pending validation with IT and Executive Management.
+
+**Status across the repository:** every stage now has content, but every stage is also explicitly marked draft wherever it hasn't been reviewed with Khalid, Nadia, or Omar. Open approvals and tracked dependencies are listed in [`03-requirements/traceability-matrix.md`](03-requirements/traceability-matrix.md), [`05-technology/risks-and-dependencies.md`](05-technology/risks-and-dependencies.md), and [`07-estimation-and-delivery/assumptions-and-change-log.md`](07-estimation-and-delivery/assumptions-and-change-log.md) — nothing has been quietly resolved to make the repository look more finished than the underlying evidence supports.
 
 _Last updated: 2026-10-05_
 

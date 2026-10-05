@@ -14,7 +14,7 @@ The exercise deliberately starts from an **incomplete client brief** (a one-para
 
 ## What this demonstrates
 
-| Skill area | Where it's evidenced |
+| Skill area (from the JD) | Where it's evidenced |
 |---|---|
 | Research & business analysis | [`02-research/`](02-research/) — market research, competitor/vendor landscape, source register |
 | Client discovery & requirement validation | [`01-discovery/`](01-discovery/) — questionnaire, interview notes, decision log |
@@ -45,7 +45,7 @@ CHANGELOG.md             What changed, when, and why
 |---|---|
 | 01 — Discovery | **Complete** — joint session, dedicated Finance and IT sessions, follow-up on open items. 2 dependencies tracked forward (see below), not blockers. |
 | 02 — Research | Substantial — UAE market data, PMS vendor landscape, UAE/GCC regulatory considerations, all sourced |
-| 03 — Requirements | Not started — next up |
+| 03 — Requirements | **Draft** — BRD, 10 user stories, 12 functional + 9 non-functional requirements, and a traceability matrix drafted from discovery evidence. Pending stakeholder validation (not yet reviewed with Khalid, Nadia, or Omar) and 2 open governance approvals — see [`03-requirements/traceability-matrix.md`](03-requirements/traceability-matrix.md). |
 | 04 — UX & Product | Not started |
 | 05 — Technology | Not started |
 | 06 — RFP & Commercial | Not started |
@@ -54,9 +54,9 @@ CHANGELOG.md             What changed, when, and why
 
 **Key discovery finding:** the client's starting request ("Hotel Management System") does not match the confirmed problem. Two independent stakeholders — Finance (process) and IT (technical) — converged on the same root cause from different angles: an ungoverned KPI-definition layer and a manual Excel consolidation process sitting outside the PMS, not a PMS data-availability problem. Full evidence trail in [`01-discovery/interview-notes.md`](01-discovery/interview-notes.md).
 
-**Open dependencies carried into requirements** (not blockers, tracked with an owner): Property D's exact PMS/reporting flow, and a property-by-property inventory of government/tourism-authority reporting obligations — both owned by IT, pending direct property-team confirmation.
+**Open dependencies carried into requirements** (not blockers, tracked with an owner): Property D's exact PMS/reporting flow, and a property-by-property inventory of government/tourism-authority reporting obligations — both owned by IT, pending direct property-team confirmation. Both are now also tracked as explicit "Pending" user stories (US-09, US-10) in [`03-requirements/`](03-requirements/), not just discovery notes.
 
-_Last updated: 2026-10-04_
+_Last updated: 2026-10-05_
 
 ## About the fictional client
 
@@ -64,4 +64,4 @@ _Last updated: 2026-10-04_
 
 ## Author
 
-Absar Alvee — Business Analyst practice project, 2026.
+Alvee — Business Analyst practice project, 2026.

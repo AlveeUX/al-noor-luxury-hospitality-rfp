@@ -2,6 +2,16 @@
 
 All notable changes to this case study are recorded here, newest first.
 
+## 2026-10-05
+
+- Drafted `03-requirements/` in full: `business-requirements-document.md`, `user-stories.md` (10 stories across 5 epics), `functional-requirements.md` (12 requirements), `non-functional-requirements.md` (9 requirements), `traceability-matrix.md`
+- Every requirement traced back to a specific discovery meeting or research finding — see `traceability-matrix.md` for the full mapping, including a table of items deliberately **not** carried into requirements (and why)
+- Requirements written solution-agnostic by design, per the Meeting 2 risk about presupposing a new Hotel Management System purchase
+- The two tracked dependencies from discovery (Property D, government/tourism reporting inventory) carried forward as explicit "Pending" user stories (US-09, US-10), not silently dropped
+- Removed `03-requirements/STATUS.md` placeholder, superseded by the real content
+- `DECISIONS.md`: 4 new entries; `README.md`: project status table updated, 03 — Requirements now "Draft — pending stakeholder validation"
+- **All content in this phase is explicitly marked draft** — no stakeholder validation session has been run on it yet; recommended next step before moving to `04-ux-and-product/` or `05-technology/` is circulating this BRD and user stories with Khalid, Nadia, and Omar
+
 ## 2026-10-04 (3)
 
 - Follow-up round on the three items left open after the Finance and IT sessions (`01-discovery/interview-notes.md`, Meeting 5)

@@ -64,4 +64,4 @@ _Last updated: 2026-10-04_
 
 ## Author
 
-Alvee — Business Analyst practice project, 2026.
+Absar Alvee — Business Analyst practice project, 2026.
